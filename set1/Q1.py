@@ -7,24 +7,25 @@ input number."""
 
 fifth = sum = count = odd = even = 0
 flag1 = flag2 = False
-for i in range():
-    n=input()
+for i in range(10):
+    n=int(input())
     if i==5:
         fifth=str(n)
     if n%2 == 0:
         if n<even:
             even=n
+        flag1=True
     else:
         if n>odd:
             odd=n
+        flag2=True
 if flag1 and flag2:
     print(odd+even)
 elif flag1 and flag2==False:
     for i in fifth:
         sum += i
-    print(sum)
+    print(sum) 
 elif flag1==False and flag2:
     for i in fifth:
         count+=1
-print(count)
-
+    print(count)
